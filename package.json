@@ -1,0 +1,50 @@
+{
+  "name": "leaflet-webpack",
+  "version": "1.0.0",
+  "description": "template de webpack para leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open --port=8080"
+  },
+  "author": "Juan Camilo Clavijo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@skyraptor/leaflet.bouncemarker": "^1.3.0",
+    "leaflet": "^1.9.3",
+    "leaflet-auto-graticule": "^1.1.1",
+    "leaflet-choropleth": "^1.1.4",
+    "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-control-mini-map": "^0.4.0",
+    "leaflet-coordinates-control": "^1.0.2",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-gps": "^1.7.8",
+    "leaflet-graphicscale": "^0.0.2",
+    "leaflet-sidebar": "^0.2.4",
+    "leaflet-simple-map-screenshoter": "^0.5.0",
+    "leaflet.heat": "^0.2.0",
+    "leaflet.markercluster": "^1.5.3",
+    "leaflet.migration": "^2.3.8",
+    "leaflet.polylinemeasure": "^3.0.0"
+  }
+}
